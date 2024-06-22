@@ -18,9 +18,39 @@ Feel free to ping me and ask any q's, but in general just use Tailwind Grid and 
 
 For delivery, send a PR or similar to this repo.
 
+## CBT
+
+There seems to be a crazy number of packages already in package.json. There should likely only be 3:
+
+```json
+"dependencies": {
+"react": "^18",
+"react-dom": "^18",
+"next": "14.2.4"
+}
+```
+
+and right now we have:
+
+```json
+  "dependencies": {
+    "@types/node": "^18.11.5",
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
+    "autoprefixer": "^10.4.19",
+    "next": "latest",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.0",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^4.8.4"
+  }
+```
+
+Not off to a great start there. Make sure those are pruned back.
+
 ### Old documentation below here
-
-
 
 Next.js enables starting as a static site or Single-Page Application (SPA), then later optionally upgrading to use features that require a server.
 
