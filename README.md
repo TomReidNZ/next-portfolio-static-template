@@ -1,4 +1,26 @@
-# Next.js Static Export
+## Hi there
+
+This project is a barebones template I've made so Lily can get some standard html / css done and deploy a decent portfolio website. This app is from a Next.js Static Export template.
+
+* To get started, fork this repo and start the dev server (npm install if you need)
+* The pages are already made:
+    * Home page (page.tsx in the main folder)
+    * About
+    * Battle Bank
+    * BravoCare
+    * Woodforest
+
+**Please just use tailwind. Don't use next image. This project shouldn't need any react or special next development, but feel free to do something minimal if needed.**
+
+I know an image modal is required, I'll add in the Radix dialog for it.
+
+Feel free to ping me and ask any q's, but in general just use Tailwind Grid and some flex and it should all work just fine. I've already loaded in the font.
+
+For delivery, send a PR or similar to this repo.
+
+### Old documentation below here
+
+
 
 Next.js enables starting as a static site or Single-Page Application (SPA), then later optionally upgrading to use features that require a server.
 
